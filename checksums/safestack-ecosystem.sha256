@@ -20,3 +20,7 @@ c65a6ce40bf3d34289c38e34a3d7f410bf966248eab58ba6c1ece7346007d17e  safestack-proj
 
 # PI5 VPN Freedom Release Manifest
 6f5e19c8d5d5161908560ef5169c531b7e34c3d40fa76205c779245e6e97935b  safestack-PI5-VPN-Freedom/release/safestack-pi5.sha256
+
+# SafeStack NodeOS v0.2.0 (Release Manifest & Signed Audit Report)
+91401c8a8057e4118d90a8d2ab79d00ec7eedfd61342921692489565d785c45d  node-os/SHA256SUMS
+95e9519c3fad58ec8dbf9e914266d156d28ab81435148c21d676646285f209ec  node-os/AUDIT_REPORT.md
