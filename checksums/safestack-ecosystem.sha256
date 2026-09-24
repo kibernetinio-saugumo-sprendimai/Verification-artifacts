@@ -1,0 +1,22 @@
+# SafeStack Ecosystem Master Checksums
+# Format: <SHA256>  <Relative Path or Identifier>
+
+# Root Canon Canonical Hashes (Date: 2026-01-26, Status: ACTIVE)
+af41dd0be635ae8aac1ad1c3ea8ce34801bd020afb4fc54c863bf4c021a3549d  safestack-canon/safe_stack_architecture_map_v2.0.md
+e81312ba3efac08a5a14893b8596719cc87ad1632ebe733a49e89f1a84aaf0e9  safestack-canon/safe_stack_mvs_minimal_viable_system.md
+f2776d8549e7eba0be4d6e67af705d43bddbafdc4c977a35493eaab549f08aac  safestack-canon/Federuota_autonominiu_mazgu_sistema.md
+
+# Technical Canon
+596ad60c745505440863e5e77a042ecf2e8506ae482555e03e07550704745bdf  safestack-technical-canon/TECHNICAL_CANON.json
+
+# Validation Registry Root State
+cb1e7ea061dd9a0b37788c833d3ee88247828d20a9e34d605ab18ed08c913cd2  safestack-validation-registry/REGISTRY.json
+
+# Project Public Keys Registry v1 (Raw file SHA256)
+b22c77ca0e4d26314b3391a3fca8b21d1b5e36b870f264875842cc366d520687  safestack-project-public-keys/public-project-keys.json
+
+# Release Signing SSH Public Key (SHA256:6bUvQeyGzXxDIUMnUyIoJPRbEeX3khAhRmYycwmgJq4)
+c65a6ce40bf3d34289c38e34a3d7f410bf966248eab58ba6c1ece7346007d17e  safestack-project-public-keys/release-signing/safestack-pi5-2026.pub
+
+# PI5 VPN Freedom Release Manifest
+6f5e19c8d5d5161908560ef5169c531b7e34c3d40fa76205c779245e6e97935b  safestack-PI5-VPN-Freedom/release/safestack-pi5.sha256
