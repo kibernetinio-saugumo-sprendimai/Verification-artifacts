@@ -40,14 +40,14 @@ for FILE in ${STAGED_FILES}; do
     if file "${FILE}" | grep -q 'binary'; then
         continue
     fi
-    # Skip this pre-commit script itself
-    if [[ "${FILE}" == *"safestack-pre-commit.sh"* ]]; then
+    # Skip security scanner scripts that define pattern constants
+    if [[ "${FILE}" == *"safestack-pre-commit.sh"* || "${FILE}" == *"verify_ecosystem.py"* ]]; then
         continue
     fi
 
     # Check for private keys
     for PATTERN in "${FORBIDDEN_PATTERNS[@]}"; do
-        if grep -Fq "${PATTERN}" "${FILE}"; then
+        if grep -Fq -e "${PATTERN}" -- "${FILE}"; then
             echo "  ✗ ERROR: Private key pattern detected in staged file: ${FILE}" >&2
             FAILED=1
         fi
@@ -55,7 +55,7 @@ for FILE in ${STAGED_FILES}; do
 
     # Check for private repository references
     for PRIV in "${FORBIDDEN_REPOS[@]}"; do
-        if grep -Fq "${PRIV}" "${FILE}"; then
+        if grep -Fq -e "${PRIV}" -- "${FILE}"; then
             echo "  ✗ ERROR: Forbidden private repository reference '${PRIV}' in staged file: ${FILE}" >&2
             FAILED=1
         fi

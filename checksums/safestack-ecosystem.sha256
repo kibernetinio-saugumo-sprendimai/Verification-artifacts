@@ -1,25 +1,58 @@
 # SafeStack Ecosystem Master Checksums
-# Format: <SHA256>  <Relative Path or Identifier>
+# Reconciled & Owner-Signed: 2026-11-05
+# Signer: SafeStack Organization Owner (safestack-labs / Antanas Bistrajus <admin@safestack.tech>)
+# Key Fingerprint: SHA256:jpM7K4+8hyAJo9qg4ISDbljuENZzx2UqMHu73+S9q48
+# Format: <SHA256>  <Relative Path from Organization Workspace>
 
 # Root Canon Canonical Hashes (Date: 2026-01-26, Status: ACTIVE)
-af41dd0be635ae8aac1ad1c3ea8ce34801bd020afb4fc54c863bf4c021a3549d  safestack-canon/safe_stack_architecture_map_v2.0.md
+416a5ae01eea7b9c81a61119f1ddb8fc74fd11ff0d3b7fd955cfc3a7ced6472f  safestack-canon/CANON_HASHES.md
+af41dd0be635ae8aac1ad1c3ea8ce34801bd020afb4fc54c863bf4c021a3549d  safestack-canon/safe_stack_architecture_map_v_2.md
 e81312ba3efac08a5a14893b8596719cc87ad1632ebe733a49e89f1a84aaf0e9  safestack-canon/safe_stack_mvs_minimal_viable_system.md
 f2776d8549e7eba0be4d6e67af705d43bddbafdc4c977a35493eaab549f08aac  safestack-canon/Federuota_autonominiu_mazgu_sistema.md
 
-# Technical Canon
+# Technical Canon (v1.0.0)
 596ad60c745505440863e5e77a042ecf2e8506ae482555e03e07550704745bdf  safestack-technical-canon/TECHNICAL_CANON.json
+f21b27833fa98870cc2fc934d114722feba3e57d75e95c03b8b17ef714a163eb  safestack-technical-canon/HASH_REGISTRY.json
 
-# Validation Registry Root State
+# Validation Registry State & Owner-Signed Manifest
 cb1e7ea061dd9a0b37788c833d3ee88247828d20a9e34d605ab18ed08c913cd2  safestack-validation-registry/REGISTRY.json
+9dd463933fd45de9fd3b0b761a78b622fa2f6a32c262998ecd26890571e56c4d  safestack-validation-registry/SHA256SUMS
+aab3296aab55438e4a964d885aae195902415a627a2e1ca0ec571b7820131168  safestack-validation-registry/release-signing/safestack-owner-2026-11-05.pub
+28b48a27028b1b845bfb4c86dcf4bb4feb836a973010cc16b7938448a6d3cf9d  safestack-validation-registry/release-signing/safestack-pi5-vpn-2026-10-14.pub
 
-# Project Public Keys Registry v1 (Raw file SHA256)
+# Project Public Keys Registry v1 & Release Signing SSH Public Keys
 b22c77ca0e4d26314b3391a3fca8b21d1b5e36b870f264875842cc366d520687  safestack-project-public-keys/public-project-keys.json
-
-# Release Signing SSH Public Key (SHA256:6bUvQeyGzXxDIUMnUyIoJPRbEeX3khAhRmYycwmgJq4)
+d542324fe0d5012e4ff5d20db547514b37e1f1b1326185b8d17960152ae3b168  safestack-project-public-keys/SAFESTACK_PROJECT_PUBLIC_KEYS_CERTIFICATE.md
 c65a6ce40bf3d34289c38e34a3d7f410bf966248eab58ba6c1ece7346007d17e  safestack-project-public-keys/release-signing/safestack-pi5-2026.pub
+28b48a27028b1b845bfb4c86dcf4bb4feb836a973010cc16b7938448a6d3cf9d  safestack-project-public-keys/release-signing/safestack-pi5-vpn-2026-10-14.pub
 
-# PI5 VPN Freedom Release Manifest
+# SafeStack Control Architecture
+d811e0b7110596644bedc47b5ee13fe47c7058abcc4d6bd1bea2b50f3177e2dd  safestack-control-architecture/index.html
 
-# SafeStack NodeOS v0.2.0 (Release Manifest & Signed Audit Report)
+# SafeStack NodeOS v0.2.0-genesis (Release Manifest & Signed Audit Report)
 91401c8a8057e4118d90a8d2ab79d00ec7eedfd61342921692489565d785c45d  node-os/SHA256SUMS
 95e9519c3fad58ec8dbf9e914266d156d28ab81435148c21d676646285f209ec  node-os/AUDIT_REPORT.md
+
+# SafeStack Audit System v2.0.0 / 1.0.0-GOLDEN (64 Verified Files)
+23ba3c18a4663fbb042147163b55303c43091b83cef29adada95bba69592183b  safestack-audit_system/SHA256SUMS
+232de2d089b65a10fe8b8603bd51076ce6cf2801a49cffc9c9d59fe1a3eef6cc  safestack-audit_system/AUDIT_REPORT.md
+
+# SafeStack Zero Trust v0.1.0 (15 Verified Files)
+6df1bb35640ef907a6fccc16947b8991215f069f3dacb29ac801e49115c00359  Safestack-Zero-Trust/SHA256SUMS
+dc9f9f011a71998200f983ea6e54b2d3dd1fc145689bf5e57ced2d746c347342  Safestack-Zero-Trust/AUDIT_REPORT.md
+
+# SafeStack Zero-Trust Platform v0.1.1 (53 Verified Files)
+7ffab85f4d8bfae628adc020f9f7d7182f795695bf755fca4e3150563ada4cbf  SafeStack-Zero-Trust-Platform/SHA256SUMS
+b38aaedc2821993204870b5a4fc5d626bf81a2fee30aa7bcc4772ba36ec11858  SafeStack-Zero-Trust-Platform/AUDIT_REPORT.md
+
+# SafeStack Sentinel v0.1.0 (46 Verified Files)
+1fc5a6c6ba4776acfb43ebb7b1fcc0b53d13fc492cdbaca5cc96e3fcd809b09c  Safestack-Sentinel/SHA256SUMS
+e0dbc7b68b4a50852e7246066a9c2cbc3bd8bc81ac84376eb2a3fd3713b6241c  Safestack-Sentinel/AUDIT_REPORT.md
+
+# SafeStack Suite v0.1.0 (23 Verified Files)
+1c7415aa482bdbe6dbc66c9a4227d96511ecf5701d685878f21b05442d08ff63  Safestack-suite/SHA256SUMS
+4b6d14c0750f605e2d471cc32b582ef360b0f338e0ea9520b898da6355751e3d  Safestack-suite/AUDIT_REPORT.md
+
+# SafeStack OSINT v1.5.1 (Baseline Manifest & Audit Report)
+fb82b34a28b52fc2c166bf4f81438ccd4ece9df3a5440e11892666d1ff761b75  safestack-OSINT/SHA256SUMS
+f40fd5951aca64b460263f82bf6179b2cbc1c9f3b759fd86f237775e90884c1c  safestack-OSINT/AUDIT_REPORT.md

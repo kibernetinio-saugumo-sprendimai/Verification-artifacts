@@ -1,0 +1,3 @@
+safestack-owner ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJB4IiC1ohSj5xayIXg2n7lEpneUOcwIhwK1wI0x5lYs SafeStack Owner Signing Key <admin@safestack.tech>
+safestack-release ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJN+gFeAh7racBiDrVtdGUNbvZbzavBIFSmIvbRxAJXY SafeStack Pi 5 release signing 2026-10-14
+safestack-release ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP+qudm8jhVNAo+nymZQjHnWofc7dLTQbaAM0lKbF0yY SafeStack Pi 5 release signing 2026
