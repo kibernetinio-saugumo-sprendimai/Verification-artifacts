@@ -1,1 +1,13 @@
 ECOSYSTEM_HEALTH_REPORT.json
+
+# Private keys and local secret material
+SAFESTACK_PRIVATE_KEYS.md
+*_PRIVATE_KEYS.md
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
