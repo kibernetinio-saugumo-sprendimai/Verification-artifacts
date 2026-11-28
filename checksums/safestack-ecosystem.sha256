@@ -1,5 +1,5 @@
 # SafeStack Ecosystem Master Checksums
-# Reconciled: 2026-11-23 (owner re-signing required after this update)
+# Reconciled: 2026-11-28 (key rotation, Pi 5 VPN security hardening & CI, owner re-signing)
 # Signer: SafeStack Organization Owner (safestack-labs / Antanas Bistrajus <admin@safestack.tech>)
 # Key Fingerprint: SHA256:jpM7K4+8hyAJo9qg4ISDbljuENZzx2UqMHu73+S9q48
 # Format: <SHA256>  <Relative Path from Organization Workspace>
@@ -16,14 +16,16 @@ f21b27833fa98870cc2fc934d114722feba3e57d75e95c03b8b17ef714a163eb  safestack-tech
 
 # Validation Registry State & Owner-Signed Manifest
 cb1e7ea061dd9a0b37788c833d3ee88247828d20a9e34d605ab18ed08c913cd2  safestack-validation-registry/REGISTRY.json
-9dd463933fd45de9fd3b0b761a78b622fa2f6a32c262998ecd26890571e56c4d  safestack-validation-registry/SHA256SUMS
+ed3c4fe9ab4cb7609859c2c2193901c9363abf7d8396166401190e2dc65f8404  safestack-validation-registry/SHA256SUMS
 aab3296aab55438e4a964d885aae195902415a627a2e1ca0ec571b7820131168  safestack-validation-registry/release-signing/safestack-owner-2026-11-05.pub
+9d278ee297db3bdd6728b5682cf5ae39e34523207ff5b52c9831275df0ac9025  safestack-validation-registry/release-signing/safestack-pi5-vpn-2026-11-28.pub
 28b48a27028b1b845bfb4c86dcf4bb4feb836a973010cc16b7938448a6d3cf9d  safestack-validation-registry/release-signing/safestack-pi5-vpn-2026-10-14.pub
 
 # Project Public Keys Registry v1 & Release Signing SSH Public Keys
-b22c77ca0e4d26314b3391a3fca8b21d1b5e36b870f264875842cc366d520687  safestack-project-public-keys/public-project-keys.json
-d542324fe0d5012e4ff5d20db547514b37e1f1b1326185b8d17960152ae3b168  safestack-project-public-keys/SAFESTACK_PROJECT_PUBLIC_KEYS_CERTIFICATE.md
+744f28de0d4a54da9cb166c52cf47d349b0a3cbd93c9a958f9b2009c2a4f1492  safestack-project-public-keys/public-project-keys.json
+b1038a3db79fafbd07eb4568c0a5fe9f288f6e7fab286bf66d7c92ee4b66de0e  safestack-project-public-keys/SAFESTACK_PROJECT_PUBLIC_KEYS_CERTIFICATE.md
 c65a6ce40bf3d34289c38e34a3d7f410bf966248eab58ba6c1ece7346007d17e  safestack-project-public-keys/release-signing/safestack-pi5-2026.pub
+9d278ee297db3bdd6728b5682cf5ae39e34523207ff5b52c9831275df0ac9025  safestack-project-public-keys/release-signing/safestack-pi5-vpn-2026-11-28.pub
 28b48a27028b1b845bfb4c86dcf4bb4feb836a973010cc16b7938448a6d3cf9d  safestack-project-public-keys/release-signing/safestack-pi5-vpn-2026-10-14.pub
 76760d2998c7b99cbbd02e102a545c18afd740013fb8e1b448b41896a5fbe938  safestack-project-public-keys/release-signing/safestack-pi5-freedom-2026-11-19.pub
 
@@ -31,8 +33,8 @@ c65a6ce40bf3d34289c38e34a3d7f410bf966248eab58ba6c1ece7346007d17e  safestack-proj
 d811e0b7110596644bedc47b5ee13fe47c7058abcc4d6bd1bea2b50f3177e2dd  safestack-control-architecture/index.html
 
 # SafeStack NodeOS v0.2.0-genesis (Release Manifest & Signed Audit Report)
-91401c8a8057e4118d90a8d2ab79d00ec7eedfd61342921692489565d785c45d  node-os/SHA256SUMS
-95e9519c3fad58ec8dbf9e914266d156d28ab81435148c21d676646285f209ec  node-os/AUDIT_REPORT.md
+ce1a0d4f173cc530574340dc66c9b079762ded8b8f6fe9fb1896889aa64c1dfc  node-os/SHA256SUMS
+52ed42115d1f68325e0abec5387a42640354599f3d33b8622231cf0cf3e91f08  node-os/AUDIT_REPORT.md
 
 # SafeStack Audit System v2.0.0 / 1.0.0-GOLDEN (64 Verified Files)
 b2ae7da085c2c62cff8f1de714575562beda9ce010d8fb168c5b4ac6fbaae1fe  safestack-audit_system/SHA256SUMS
@@ -60,3 +62,6 @@ f40fd5951aca64b460263f82bf6179b2cbc1c9f3b759fd86f237775e90884c1c  safestack-OSIN
 
 # SafeStack PI5 VPN Freedom (Signed Release Manifest)
 b927a5f8ac1a19b60b2203a585f43c48edfe3e6a36b1d53f267ca6af2d09fc96  safestack-PI5-VPN-Freedom/release/safestack-pi5.sha256
+
+# SafeStack Pi 5 VPN (Signed Release Manifest v1.3.0)
+1f1966e906afe090a6d6689abc44131c38de1b67fed901e44ebe721a05c6800b  safestack-Pi-5-VPN/release/safestack-pi5.sha256
